@@ -6,6 +6,7 @@ export interface ProductType {
   category: string;
   prepInfo?: string;
   popular?: boolean;
+  image: string; 
 }
 
 export interface CartItemType extends ProductType {

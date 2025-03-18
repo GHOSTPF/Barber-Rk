@@ -41,21 +41,24 @@ export const products: ProductType[] = [
     description: 'Pomada modeladora com acabamento fosco para um visual natural',
     price: 49.90,
     category: 'hair-care',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1616536814446-f5120df1c1ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9tYWRhfGVufDB8fDB8fHww' // URL da imagem
   },
   {
     id: 2,
     name: 'Shampoo Antiqueda Premium',
     description: 'Shampoo fortalecedor com ativos naturais',
     price: 59.90,
-    category: 'hair-care'
+    category: 'hair-care',
+    image: 'https://images.unsplash.com/photo-1620018646973-e3e257a1002c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2xlbyUyMHBhcmElMjBiYXJiYXxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
   {
     id: 3,
     name: 'Máscara de Hidratação Profunda',
     description: 'Tratamento intensivo para cabelos danificados',
     price: 75.90,
-    category: 'hair-care'
+    category: 'hair-care',
+    image: 'https://images.unsplash.com/photo-1590159763121-7c9fd312190d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVudGUlMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8fDA%3D' // URL da imagem
   },
 
   // Cuidados com a Barba
@@ -65,14 +68,16 @@ export const products: ProductType[] = [
     description: 'Óleo hidratante com fragrância amadeirada',
     price: 45.90,
     category: 'beard-care',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1620018646973-e3e257a1002c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2xlbyUyMHBhcmElMjBiYXJiYXxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
   {
     id: 5,
     name: 'Balm para Barba',
     description: 'Balm modelador e hidratante para barba',
     price: 39.90,
-    category: 'beard-care'
+    category: 'beard-care',
+    image: 'https://images.unsplash.com/photo-1627875777314-da35433c0c8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2xlbyUyMHBhcmElMjBiYXJiYXxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
   {
     id: 6,
@@ -80,7 +85,8 @@ export const products: ProductType[] = [
     description: 'Kit com shampoo, óleo e pente para barba',
     price: 129.90,
     category: 'beard-care',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1627875777314-da35433c0c8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2xlbyUyMHBhcmElMjBiYXJiYXxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
 
   // Cuidados com a Pele
@@ -89,14 +95,16 @@ export const products: ProductType[] = [
     name: 'Loção Pós Barba',
     description: 'Loção calmante e refrescante',
     price: 49.90,
-    category: 'skin-care'
+    category: 'skin-care',
+    image: 'https://images.unsplash.com/photo-1590159763121-7c9fd312190d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVudGUlMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8fDA%3D' // URL da imagem
   },
   {
     id: 8,
     name: 'Hidratante Facial Masculino',
     description: 'Hidratante oil-free para todos os tipos de pele',
     price: 55.90,
-    category: 'skin-care'
+    category: 'skin-care',
+    image: 'https://images.unsplash.com/photo-1590159763121-7c9fd312190d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVudGUlMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8fDA%3D' // URL da imagem
   },
 
   // Acessórios
@@ -106,14 +114,16 @@ export const products: ProductType[] = [
     description: 'Navalha em aço inox com cabo em madeira',
     price: 189.90,
     category: 'accessories',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1524230616393-d6229fcd2eff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE5hdmFsaGF8ZW58MHx8MHx8fDA%3D' // URL da imagem
   },
   {
     id: 10,
     name: 'Pente de Madeira Premium',
     description: 'Pente artesanal em madeira nobre',
     price: 79.90,
-    category: 'accessories'
+    category: 'accessories',
+    image: 'https://images.unsplash.com/photo-1590159763121-7c9fd312190d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVudGUlMjBkZSUyMG1hZGVpcmF8ZW58MHx8MHx8fDA%3D' // URL da imagem
   },
 
   // Perfumaria
@@ -123,14 +133,16 @@ export const products: ProductType[] = [
     description: 'Fragrância masculina com notas amadeiradas',
     price: 199.90,
     category: 'perfumes',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1593105587216-6581c8071e68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZnVtZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
   {
     id: 12,
     name: 'Perfume Sport',
     description: 'Fragrância refrescante para o dia a dia',
     price: 159.90,
-    category: 'perfumes'
+    category: 'perfumes',
+    image: 'https://images.unsplash.com/photo-1593105587216-6581c8071e68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZnVtZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   }
 ];
 export const examItems = [

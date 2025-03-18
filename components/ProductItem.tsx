@@ -2,6 +2,7 @@ import React from 'react';
 import { Plus, Star, Info } from 'lucide-react';
 import { ProductType } from '../types/index';
 import Link from 'next/link';
+import Image from 'next/image'; // Importe o componente Image do Next.js
 
 interface ProductItemProps {
   item: ProductType;
@@ -9,10 +10,21 @@ interface ProductItemProps {
 }
 
 const ProductItem: React.FC<ProductItemProps> = ({ item, addToCart }) => {
-  const { id, name, description, price, popular } = item;
+  const { id, name, description, price, popular, image } = item;
   
   return (
     <div className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-barber-100 flex flex-col h-full group">
+      {/* Container da imagem */}
+      <div className="relative h-48 w-full">
+        <Image
+          src={image}
+          alt={name}
+          layout="fill"
+          objectFit="cover"
+          className="rounded-t-xl"
+        />
+      </div>
+
       <div className="p-6 flex flex-col flex-grow">
         {popular && (
           <div className="flex items-center text-yellow-500 text-sm mb-3">
