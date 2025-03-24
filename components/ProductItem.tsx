@@ -16,6 +16,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ item, addToCart }) => {
     <div className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-barber-100 flex flex-col h-full group">
       {/* Container da imagem */}
       <div className="relative h-48 w-full">
+      {image && (
         <Image
           src={image}
           alt={name}
@@ -23,6 +24,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ item, addToCart }) => {
           objectFit="cover"
           className="rounded-t-xl"
         />
+      )}
       </div>
 
       <div className="p-6 flex flex-col flex-grow">

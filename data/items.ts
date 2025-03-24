@@ -152,7 +152,8 @@ export const examItems = [
     description: 'Pomada modeladora com acabamento fosco para um visual natural',
     price: 49.90,
     category: 'hair-care',
-    popular: true
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1593105587216-6581c8071e68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZnVtZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D' // URL da imagem
   },
   {
     id: 2,

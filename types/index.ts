@@ -6,7 +6,16 @@ export interface ProductType {
   category: string;
   prepInfo?: string;
   popular?: boolean;
-  image: string; 
+  image?: string; 
+}
+
+export interface ExamItemType {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  category: string;
+  popular?: boolean;
 }
 
 export interface CartItemType extends ProductType {
